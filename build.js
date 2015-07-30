@@ -44,9 +44,6 @@ var _actionsImageActions2 = _interopRequireDefault(_actionsImageActions);
 var App = _react2['default'].createClass({
   displayName: 'App',
 
-  getInitialState: function getInitialState() {
-    return {};
-  },
   rangeChangeHandler: function rangeChangeHandler(values) {
     //this.setState({min: values[0], max: values[1], page: 1},);
     _actionsImageActions2['default'].fetchList(values);

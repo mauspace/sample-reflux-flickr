@@ -5,11 +5,6 @@ import RangeSlider from './components/RangeSlider';
 import ImageActions from './actions/ImageActions';
 
 var App = React.createClass({
-  getInitialState: function() {
-    return {
-
-    }
-  },
   rangeChangeHandler: function(values) {
     //this.setState({min: values[0], max: values[1], page: 1},);
     ImageActions.fetchList(values);
