@@ -1,7 +1,7 @@
 import Reflux from 'reflux';
 
 let ImageActions = Reflux.createActions([
-"fetchList"
-	]);
+    "fetchList"
+]);
 
 export default ImageActions;
